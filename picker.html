@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="picker.css" />
+  </head>
+  <body>
+    <h2>COLOR PICKER</h2>
+    <section class="sectionA">
+      <div class="container">
+        <canvas id="color-picker"></canvas>
+        <div class="info">
+          <div class="selected"></div>
+        </div>
+      </div>
+      <article class="btn-container">
+        <button class="btn" data-id="default">default</button>
+        <button class="btn" data-id="ui">UI</button>
+        <button class="btn" data-id="preview">see preview</button>
+      </article>
+      <article class="palette-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </article>
+    </section>
+    <script src="picker.js"></script>
+  </body>
+</html>
