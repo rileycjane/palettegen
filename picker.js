@@ -196,3 +196,5 @@ http.onreadystatechange = function () {
     // square.style.backgroundColor = `rgb(${palette[0][0]})`);
   }
 };
+
+//testing 
